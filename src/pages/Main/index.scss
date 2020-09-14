@@ -1,0 +1,54 @@
+@import '../../global';
+
+.main {
+    background: $darkest;
+    width: 100%;
+    height: 300vh;
+
+    &__landing {
+        height: 100vh;
+
+        &__content {
+            display: grid;
+            grid-template-columns: 90% 10%;
+            grid-template-rows: 1fr;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+        }
+
+        &__person {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            padding: 0 4em;
+            background: #0000005b;
+        }
+
+        &__hello {
+            font-size: 2.5rem;
+            color: $white;
+            font-weight: lighter;
+        }
+
+        &__fullname {
+            color: $primary;
+            font-size: 3rem;
+            font-weight: lighter;
+        }
+
+        &__video {
+            filter: brightness(70%);
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            width: 100%;
+            height: 100vh;
+            z-index: 0;
+        }
+    }
+}
