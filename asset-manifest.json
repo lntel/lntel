@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/lntel/static/css/main.e085afb8.chunk.css",
-    "main.js": "/lntel/static/js/main.c119b6f4.chunk.js",
-    "main.js.map": "/lntel/static/js/main.c119b6f4.chunk.js.map",
-    "runtime-main.js": "/lntel/static/js/runtime-main.d4128eb5.js",
-    "runtime-main.js.map": "/lntel/static/js/runtime-main.d4128eb5.js.map",
-    "static/js/2.231ad13f.chunk.js": "/lntel/static/js/2.231ad13f.chunk.js",
-    "static/js/2.231ad13f.chunk.js.map": "/lntel/static/js/2.231ad13f.chunk.js.map",
-    "index.html": "/lntel/index.html",
-    "precache-manifest.4fd853142e931374ae1fae3375362c6c.js": "/lntel/precache-manifest.4fd853142e931374ae1fae3375362c6c.js",
-    "service-worker.js": "/lntel/service-worker.js",
-    "static/css/main.e085afb8.chunk.css.map": "/lntel/static/css/main.e085afb8.chunk.css.map",
-    "static/js/2.231ad13f.chunk.js.LICENSE.txt": "/lntel/static/js/2.231ad13f.chunk.js.LICENSE.txt",
-    "static/media/mountain.mp4": "/lntel/static/media/mountain.fb2b8ff8.mp4"
+    "main.css": "/static/css/main.e085afb8.chunk.css",
+    "main.js": "/static/js/main.c119b6f4.chunk.js",
+    "main.js.map": "/static/js/main.c119b6f4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.42778fda.js",
+    "runtime-main.js.map": "/static/js/runtime-main.42778fda.js.map",
+    "static/js/2.231ad13f.chunk.js": "/static/js/2.231ad13f.chunk.js",
+    "static/js/2.231ad13f.chunk.js.map": "/static/js/2.231ad13f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.17d1a16336d8e9330550840b2b2399cd.js": "/precache-manifest.17d1a16336d8e9330550840b2b2399cd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e085afb8.chunk.css.map": "/static/css/main.e085afb8.chunk.css.map",
+    "static/js/2.231ad13f.chunk.js.LICENSE.txt": "/static/js/2.231ad13f.chunk.js.LICENSE.txt",
+    "static/media/mountain.mp4": "/static/media/mountain.fb2b8ff8.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4128eb5.js",
+    "static/js/runtime-main.42778fda.js",
     "static/js/2.231ad13f.chunk.js",
     "static/css/main.e085afb8.chunk.css",
     "static/js/main.c119b6f4.chunk.js"
