@@ -5,7 +5,7 @@ import Main from './pages/Main'
 
 const App = () => {
     return (
-        <Router>
+        <Router basename="/">
             <Switch>
                 <Route path='/' exact component={Main} />
             </Switch>
