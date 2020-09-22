@@ -1,0 +1,77 @@
+@import './global';
+
+.introduction {
+    display: grid;
+    grid-template-columns: 80% 1fr;
+    grid-template-rows: 100%;
+    width: 100%;
+    height: 100vh;
+
+    &__content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 3em;
+        z-index: 1;
+        background: #22222296;
+    }
+
+    &__technologies {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        padding: 3em 0;
+        height: 17%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: rgba($darker, .70);
+        opacity: 0;
+        transition: opacity .8s ease-in-out;
+
+        &--visible {
+            opacity: 1;
+        }
+        
+        img {
+            object-fit: contain;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    &__hello {
+        font-weight: 400;
+        font-size: 2rem;
+        color: $white;
+        transform: translateX(-100vw);
+        transition: transform .6s ease-in-out;
+
+        &--visible {
+            transform: translateX(0);
+        }
+    }
+
+    &__fullname {
+        font-weight: 400;
+        font-size: 3rem;
+        color: $primary;
+        opacity: 0;
+        transition: opacity .8s ease-in-out;
+
+        &--visible {
+            opacity: 1;
+        }
+    }
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+    z-index: 0;
+}

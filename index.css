@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #222;
+}
+
+.introduction {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 80% 1fr;
+      grid-template-columns: 80% 1fr;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.introduction__content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 3em;
+  z-index: 1;
+  background: #22222296;
+}
+
+.introduction__technologies {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  padding: 3em 0;
+  height: 17%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: rgba(68, 68, 68, 0.7);
+  opacity: 0;
+  -webkit-transition: opacity .8s ease-in-out;
+  transition: opacity .8s ease-in-out;
+}
+
+.introduction__technologies--visible {
+  opacity: 1;
+}
+
+.introduction__technologies img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.introduction__hello {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #f3f3f3;
+  -webkit-transform: translateX(-100vw);
+          transform: translateX(-100vw);
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
+  transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+}
+
+.introduction__hello--visible {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.introduction__fullname {
+  font-weight: 400;
+  font-size: 3rem;
+  color: #03f598;
+  opacity: 0;
+  -webkit-transition: opacity .8s ease-in-out;
+  transition: opacity .8s ease-in-out;
+}
+
+.introduction__fullname--visible {
+  opacity: 1;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 80%;
+  height: 100%;
+  z-index: 0;
+}
+/*# sourceMappingURL=index.css.map */
